@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+}
+
+#cloud1 ,#cloud2,#cloud3 {
+    animation: zoomies 10s infinite linear;
+
+}
+
+@keyframes zoomies {
+    from{
+        left:0;
+        transform: translateX(-100%);
+    }
+        
+    
+    to {
+        left: 100%;
+        transform: translateX(0%);
+    }
+}
